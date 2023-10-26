@@ -123,37 +123,28 @@ p {
 .showcase-card > h2 {
     color: white;
     width: 100%;
-    margin-bottom: 2%;
+    margin: 2% 0%;
 }
 
 .showcase-card img {
-    width: 90%;
-    height: 90%;
+    width: 95%;
+    height: 85%;
 }
 
 .showcase-img {
-    height: 500px; 
     border: double 5px #B69932;
-    padding: 4px;
-    margin: 20px 0;
 }
 
 .showcase-card > p {
-    width: 100%;
     font-size: 20px;
     font-weight: 600;
     padding: 10px 0;
     margin: 10px 0;
 }
 
-.showcase-card > a {
-    padding: 10px 0;
-   
-}
-
 .showcase-card > a button {
-    width: 100%; 
-    margin: 10px 0;
+    width: 50%; 
+    margin: 5px 0;
     font-family: 'Aclonica', sans-serif;
     text-transform: uppercase;
     background-color: #c2a84cb4;
@@ -343,17 +334,19 @@ p {
         margin: 20px 0;
     }
 
-    .showcase-card > p {
-        width: 100%;
-        font-size: 18px;
-        text-align: center;
-    }
-
     .showcase-card > a button {
-        margin-top: 20px;
-        padding: 5px;
+        border: 2px black solid;
+        border-radius: 50px;
         width: 100%;
+        font-size: 1rem;
         text-transform: uppercase;
         background-color: #c2a84cb4;
     }
+}
+
+.btnHighlight{
+    border: 3px rgb(255, 255, 255) solid!important;
+        border-radius: 50px;
+    background-color:#6b6b6b81!important;
+    color:#000000!important
 }
